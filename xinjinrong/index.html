@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <img class="logo" src="images/logo.png" alt="">
+        <ul class="menu">
+            <span style="margin-left: 30px;float: right">
+                <a href="###" class="login">登录</a>&nbsp;&nbsp;
+                <a href="###" class="sign">注册</a>
+            </span>
+            <li><a href="###" style="border: none">就业服务</a></li>
+            <li><a href="###">金融实训</a></li>
+            <li><a href="###">协同创新</a></li>
+            <li><a href="###">智慧管理</a></li>
+            <li><a href="###">智慧学习</a>
+                <div class="more">
+                    <a href="###">二级目录</a>
+                    <a href="###">二级目录</a>
+                    <a href="###">二级目录</a>
+                    <a href="###">二级目录</a>
+                </div>
+            </li>
+            <li class="active"><a href="###">首页</a>
+                <div class="more">
+                    <a href="###">二级目录</a>
+                    <a href="###">二级目录</a>
+                    <a href="###">二级目录</a>
+                    <a href="###">二级目录</a>
+                </div>
+            </li>
+            <span class="line"></span>
+        </ul>
+        <span class="btn_mobile">
+                <a href="###" class="login">登录</a>&nbsp;&nbsp;
+                <a href="###" class="sign">注册</a>
+            </span>
+    </div>
+</div>
+<ul class="menu_mobile">
+    <li><a href="###">首页</a>
+        <div class="more">
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+        </div>
+    </li>
+    <li><a href="###">智慧学习</a>
+        <div class="more">
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+        </div>
+    </li>
+    <li><a href="###">智慧管理</a>
+        <div class="more">
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+        </div>
+    </li>
+    <li><a href="###">协同创新</a>
+        <div class="more">
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+        </div>
+    </li>
+    <li><a href="###">金融实训</a>
+        <div class="more">
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+        </div>
+    </li>
+    <li><a href="###" style="border: none">就业服务</a>
+        <div class="more">
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+            <a href="###">二级目录</a>
+        </div>
+    </li>
+</ul>
+<div class="contant">
+    <h1>新金融智慧学习工场</h1>
+    <img src="images/lines.png" alt="" style="width: 100%;max-width: 505px">
+    <h4>智慧的学习、学习的工场、智慧的工场。</h4>
+</div>
+<div class="city"></div>
+</body>
+<script src="jquery-3.2.1.min.js"></script>
+<script>
+    var menuleft = $(".menu").offset().left;
+    $(".menu .line").stop().animate({
+        'width': $(".menu .active").width(),
+        'left': $(".menu .active").offset().left - menuleft
+    }, "fast")
+    $(".menu li").hover(function () {
+        $(".menu .line").stop().animate({'width': $(this).width(), 'left': $(this).offset().left - menuleft})
+    }, function () {
+        $(".menu .line").stop().animate({
+            'width': $(".menu .active").width(),
+            'left': $(".menu .active").offset().left - menuleft
+        }, "fase")
+    })
+
+
+
+</script>
+</html>

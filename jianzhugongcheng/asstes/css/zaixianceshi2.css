@@ -1,0 +1,404 @@
+/*/!*清除默认样式*!/*/
+/**{margin:0;padding:0;list-style:none;border:0;}*/
+/*/!*重置浏览默认样式*!/*/
+/*html{*/
+    /*overflow-x: hidden;*/
+/*}*/
+/*body{*/
+
+    /*margin:0;*/
+    /*padding:0;*/
+    /*font-family:Microsoft YaHei,sans-serif;*/
+    /*font-size: 14px;*/
+    /*color: #333;*/
+
+/*}*/
+/*/!*共公部分*!/*/
+/*.Typearea{*/
+    /*width: 1000px;*/
+    /*height: auto;*/
+    /*margin:0 auto;*/
+/*}*/
+/*a{*/
+    /*color:#333;*/
+    /*text-decoration: none;*/
+/*}*/
+/*a:hover,a:focus{*/
+    /*text-decoration: none;*/
+    /*color:#142672;*/
+    /*outline:none;*/
+/*}*/
+/*/!*清除*!/*/
+/*.clearfix:after{*/
+    /*content:'.';*/
+    /*display:block;*/
+    /*height:0;*/
+    /*clear:both;*/
+    /*visibility:hidden;*/
+/*}*/
+/*ul,li,ol,h2,h3,h4,h5,h6,p{margin:0;}*/
+
+
+/*/!*头部*!/*/
+/*.top{*/
+    /*height: 115px;*/
+    /*background: #fff;*/
+/*}*/
+/*.top_erma{*/
+    /*width: 450px;*/
+    /*float:left;*/
+/*}*/
+/*.top_erma img{*/
+    /*display: block;*/
+    /*width: 94px;*/
+    /*height: 94px;*/
+    /*margin-top:11px;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.logo{*/
+    /*width: 315px;*/
+    /*float:left;*/
+/*}*/
+/*.logo img{*/
+    /*margin-top:5px;*/
+/*}*/
+/*.toplogin{*/
+    /*float:right;*/
+/*}*/
+/*.toplogin a{*/
+    /*float:left;*/
+    /*display: block;*/
+    /*width: 60px;*/
+    /*height: 32px;*/
+    /*color:#fff;*/
+    /*text-align: center;*/
+    /*line-height: 32px;*/
+    /*border-radius: 16px;*/
+    /*-webkit-border-radius: 16px;*/
+    /*-moz-border-radius: 16px;*/
+    /*margin-top:42px;*/
+/*}*/
+/*.toplogin a.login{*/
+    /*background:#142672;*/
+    /*margin-right: 15px;*/
+/*}*/
+/*.toplogin a.login:hover{*/
+    /*background: #101e5a;*/
+/*}*/
+/*.toplogin a.registered{*/
+    /*background:#b78438;*/
+/*}*/
+/*.toplogin a.registered:hover{*/
+    /*background:#9c7131;*/
+/*}*/
+
+/*/!*导航*!/*/
+/*.nav_wrap{*/
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*background: #09174b;*/
+/*}*/
+/*.navs{*/
+    /*padding:14px  0;*/
+/*}*/
+/*.navs a{*/
+    /*display: block;*/
+    /*float:left;*/
+    /*font-size: 16px;*/
+    /*color:#fff;*/
+    /*padding:5px 16px;*/
+    /*margin:3px 14px;*/
+/*}*/
+/*.navs a.on,.navs a:hover{*/
+    /*background: #fff;*/
+    /*border-radius: 15px;*/
+    /*color:#333;*/
+    /*-webkit-border-radius: 15px;*/
+    /*-moz-border-radius: 15px;*/
+/*}*/
+
+/*在线测试入口*/
+.zaixianceshi_wrap{
+    margin-top:10px;
+    position: relative;
+    width: 100%;
+    height: 425px;
+}
+.zaixianceshi_wrap img.bgs{
+    position: absolute;
+    top:0;
+    left:50%;
+    transform:translate(-50%,0);
+    -webkit-transform:translate(-50%,0);
+    -moz-transform:translate(-50%,0);
+    -ms-transform:translate(-50%,0);
+    -o-transform:translate(-50%,0);
+    display: block;
+}
+.zaixianCont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    z-index: 2222;
+    box-sizing: border-box;
+}
+
+.zaixianCont a{
+    display: block;
+    float:left;
+    height: 100%;
+    margin-right:109px;
+}
+.zaixianCont a img{
+    display: block;
+    float:left;
+}
+.zaixianCont a:last-child{
+    margin-right:0;
+}
+.zaixianCont a img.ConPic{
+    margin-top:13px;
+}
+
+/*在线测试 通知公告入口*/
+
+.zaixianGongGao_wrap{
+    margin-top:34px;
+}
+.zaixianGongGao_tit{
+    height: 38px;
+    color: #999
+}
+.zaixianGongGao_tit a{
+    color:#333;
+    margin-right:10px;
+    margin-left:10px;
+}
+.zaixianGongGao_tit a:hover{
+    color:#142672;
+}
+.zaixianGongGao_tit a.onss{
+    color: #000;
+    margin-left: 0;
+}
+
+.tongzhis{
+    margin-top: 16px;
+    /* height: 74px; */
+    text-align: center;
+     margin-bottom: 14px;
+}
+.tongzhis h2{
+    font-size: 24px;
+    height: 40px;
+    font-weight: bold;
+}
+.tongzhis p{
+    color: #999;
+    font-size: 16px;
+    height: 24px;
+    text-transform: uppercase;
+}
+.tongzhis span{
+    display: inline-block;
+    width: 74px;
+    height: 5px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    background: #3d425a
+}
+
+.tongzhis_Con li a{
+    position: relative;
+    color: #666;
+    display: block;
+    line-height: 38px;
+    overflow: hidden;
+}
+.tongzhis_Con li a:hover{
+    color:#ed830f;
+}
+.tongzhis_Con li a:hover:before{
+    background: #ed830f;
+}
+.tongzhis_Con li a:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background: #b2b2b2;
+}
+.tongzhis_Con li a p{
+    float: left;
+    width: 80%;
+    padding-left: 16px;
+}
+.tongzhis_Con li a span{
+    float:right;
+}
+
+
+.TrainPage{
+
+    width: 100%;
+    display:inline-block;
+    text-align: center;
+
+}
+.TrainPage .pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 40px auto 0;
+    border-radius: 4px;
+}
+.TrainPage .pagination > li {
+    display: inline;
+
+}
+.TrainPage .pagination > li:last-child a{
+    margin-left:0;
+    border-left:0;
+}
+.TrainPage .pagination > li > a,
+.TrainPage .pagination > li > span {
+    position: relative;
+    float: left;
+    margin-left:6px;
+    padding:12px;
+    -margin-left: -1px;
+    -line-height: 30px;
+    color:#859295;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    box-sizing:border-box;
+}
+.TrainPage .pagination > li:first-child > a,
+.TrainPage .pagination > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.TrainPage .pagination > li:last-child > a,
+.TrainPage .pagination > li:last-child > span {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.TrainPage .pagination > li > a:hover,
+.TrainPage .pagination > li > span:hover,
+.TrainPage .pagination > li > a:focus,
+.TrainPage .pagination > li > span:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #142672;
+    border-color: #ddd;
+}
+.TrainPage .pagination > li.atives a{
+    color: #fff;
+    background-color: #142672;
+    border-color: #ddd;
+    font-weight: bold;
+}
+.TrainPage .pagination > .active > a,
+.TrainPage .pagination > .active > span,
+.TrainPage .pagination > .active > a:hover,
+.TrainPage .pagination > .active > span:hover,
+.TrainPage .pagination > .active > a:focus,
+.TrainPage .pagination > .active > span:focus {
+    z-index: 3;
+    color: red;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.TrainPage .pagination > .disabled > span,
+.TrainPage .pagination > .disabled > span:hover,
+.TrainPage .pagination > .disabled > span:focus,
+.TrainPage .pagination > .disabled > a,
+.TrainPage .pagination > .disabled > a:hover,
+.TrainPage .pagination > .disabled > a:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+#previous span{
+    color:#ccc;
+}
+#previous a:hover span{
+    color:#fff;
+}
+#next span{
+    color:#859295;
+}
+#next a:hover span{
+    color:#fff;
+}
+/*f*/
+.TrainPage .pagination > li.ones > a {
+    border-right: 0;
+    margin-left:20px;
+    -color:#000;
+}
+.TrainPage .pagination > li.she > a{
+    padding:0;
+    border:0;
+    color:#000;
+    line-height: 36px;
+    background: #fafafa;
+}
+.TrainPage .pagination > li.she > a:hover{
+    background:#fafafa;
+    color:#000;
+}
+
+
+/*正文*/
+.zhengTit h2{
+   font-size: 30px;
+    height: 50px;
+    text-align: center;
+    color:#404040;
+    margin-top:10px;
+}
+.zhengTit p{
+   font-size: 12px;
+    color:#bbbbb9;
+    text-align: center;
+    height: 40px;
+}
+span.bian{
+    width: 100%;
+    height: 8px;
+    background: url(../images/zhengTit_bg.png) repeat-x;;display: block;
+}
+.zhengwenCon{
+    font-size: 16px;
+    margin-top:24px;
+    color:#666;
+    line-height: 30px;
+}
+.zhengwenCon p{
+   text-indent: 2em;
+    margin-bottom:10px;
+}
+.zhengwenCon p:last-child{
+    margin-bottom:14px;
+}
