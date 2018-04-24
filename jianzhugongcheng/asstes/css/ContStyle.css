@@ -270,7 +270,7 @@ nav.TrainPage{
     color:#859295;
 }
 .pagination > li.atives a{
-    background:#25bce4;
+    background:#005e66;
     color:#fff;
 }
  .pagination > li#previous a{
@@ -437,7 +437,7 @@ ul.yuanxiaoAll .yuans{
     float:left;
     font-size: 14px;
     padding-right:8px;
-    line-height: 34px;
+    line-height: 25px;
 }
 
 .yuanxiaoAll .yy-kk{
@@ -471,9 +471,9 @@ ul.yuanxiaoAll .yuans{
     /*margin-right:0;*/
 /*}*/
 .yuanxiaoAll .yy-kk .btn.active{
-    background-color: #23b7ff;
+    background-color: #005e66;
     color: #fff;
-    border:1px solid #23b7ff;
+    border:1px solid #005e66;
 }
 .yuanxiaoAll .yy-kk .btn.active,.yuanxiaoAll .yy-kk .btn{
     /*float:left;*/
@@ -500,9 +500,6 @@ ul.yuanxiaoAll .yy-kk .btn.active{
 .yuanxiaoAll .yy-kk .btn.active,.yuanxiaoAll .yy-kk .btn:active input{
     margin:0;
     line-height: 23px;
-}
-.yuanxiaoAll .yy-kk .yy-wid{
-    margin-top:5px;
 }
 input[type="radio"], input[type="checkbox"]{
     margin:0;
@@ -584,7 +581,7 @@ input[type="radio"], input[type="checkbox"]{
     height: 25px;
     text-align: center;
     background: #f8f8f8;
-    border:1px solid #23b7ff;
+    border:1px solid #005e66;
     border-left:0;
     /*border-radius: 6px;*/
     /*-webkit-border-radius: 6px;*/
